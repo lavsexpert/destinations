@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BE1BF54706F603E267C8C6650D98D91 /* DGDistanceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E4AB0756BE10B88D0122F7EA53A239AC /* DGDistanceRequest.m */; };
+		139E1E96A6844317AEA1008083896C1E /* DGDistanceRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = FA1B2BD9D9BE442521CF5C346FA7D60A /* DGDistanceRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		441765A550578185E9DFE1381C8AAE15 /* Pods-PeerReview04-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C14104F1B4A7E422523C0CFA1002D9B /* Pods-PeerReview04-dummy.m */; };
+		4D5897CD76DD672F3BE16900435A98FF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 860F0928CA37661A941201569E43E2B5 /* MapKit.framework */; };
+		5968700707984989C274B66892508EF0 /* DistanceGetter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 742E7BD957B20E29E426F08197B4B3A8 /* DistanceGetter-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		200C257A940D0CA028C0F1F47FA955DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 195A768C0E64F6438D36F67FA310AA45;
+			remoteInfo = DistanceGetter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A8C08E87F8D37E5C0A3A5E86B5C6CD1 /* Pods-PeerReview04.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PeerReview04.release.xcconfig"; sourceTree = "<group>"; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2D1FEC51E2CAD449FB3F73051229EB8E /* Pods-PeerReview04.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PeerReview04.debug.xcconfig"; sourceTree = "<group>"; };
+		3A324F57C3A20DB56F597812F5A6BA2A /* DistanceGetter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DistanceGetter.xcconfig; sourceTree = "<group>"; };
+		4063BE79655B1E1DB573126BFFFCD8CC /* Pods-PeerReview04-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PeerReview04-acknowledgements.markdown"; sourceTree = "<group>"; };
+		429AF148C276AC4C969B204AB7020C38 /* Pods-PeerReview04-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PeerReview04-acknowledgements.plist"; sourceTree = "<group>"; };
+		742E7BD957B20E29E426F08197B4B3A8 /* DistanceGetter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DistanceGetter-dummy.m"; sourceTree = "<group>"; };
+		860F0928CA37661A941201569E43E2B5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		8B1D5F27848335B6FAABC7CBE4241724 /* Pods-PeerReview04-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PeerReview04-frameworks.sh"; sourceTree = "<group>"; };
+		8C14104F1B4A7E422523C0CFA1002D9B /* Pods-PeerReview04-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PeerReview04-dummy.m"; sourceTree = "<group>"; };
+		AB8A8DD2E7A36B2E5FA98A06E1001C2C /* DistanceGetter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DistanceGetter-prefix.pch"; sourceTree = "<group>"; };
+		B0AF29983C57F8E88205BE97586B0C69 /* libPods-PeerReview04.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PeerReview04.a"; path = "libPods-PeerReview04.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4AB0756BE10B88D0122F7EA53A239AC /* DGDistanceRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGDistanceRequest.m; path = Pod/Classes/DGDistanceRequest.m; sourceTree = "<group>"; };
+		F142DEB1A98A8D448761A1CC1385D3ED /* libDistanceGetter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libDistanceGetter.a; path = libDistanceGetter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1B2BD9D9BE442521CF5C346FA7D60A /* DGDistanceRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGDistanceRequest.h; path = Pod/Classes/DGDistanceRequest.h; sourceTree = "<group>"; };
+		FFB41B0569D74C936FE9FB8E8343056E /* Pods-PeerReview04-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PeerReview04-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F9A007BF57C52A4AFD0E7C627AFD466 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36DF45846B3335C4C3FA0C8F19AA1205 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5897CD76DD672F3BE16900435A98FF /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15909CB7C91AD8E1175717C314F1B1C2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				860F0928CA37661A941201569E43E2B5 /* MapKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		18DFB90557F3CE87FE8B4A89C443CE8A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A324F57C3A20DB56F597812F5A6BA2A /* DistanceGetter.xcconfig */,
+				742E7BD957B20E29E426F08197B4B3A8 /* DistanceGetter-dummy.m */,
+				AB8A8DD2E7A36B2E5FA98A06E1001C2C /* DistanceGetter-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DistanceGetter";
+			sourceTree = "<group>";
+		};
+		2E2CF939FFBFF60875BF80BD9DF96B62 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A8017B4563DDC2D4E5578BBCCDB83AF /* Pods-PeerReview04 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		49D2C2A73DC227A29AF41EBCAF966FAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F142DEB1A98A8D448761A1CC1385D3ED /* libDistanceGetter.a */,
+				B0AF29983C57F8E88205BE97586B0C69 /* libPods-PeerReview04.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60E8EE5544B65145ED5002A04EF3BFD1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86051A3C00E1F77C8B9CC47D412D18B2 /* DistanceGetter */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7A8017B4563DDC2D4E5578BBCCDB83AF /* Pods-PeerReview04 */ = {
+			isa = PBXGroup;
+			children = (
+				4063BE79655B1E1DB573126BFFFCD8CC /* Pods-PeerReview04-acknowledgements.markdown */,
+				429AF148C276AC4C969B204AB7020C38 /* Pods-PeerReview04-acknowledgements.plist */,
+				8C14104F1B4A7E422523C0CFA1002D9B /* Pods-PeerReview04-dummy.m */,
+				8B1D5F27848335B6FAABC7CBE4241724 /* Pods-PeerReview04-frameworks.sh */,
+				FFB41B0569D74C936FE9FB8E8343056E /* Pods-PeerReview04-resources.sh */,
+				2D1FEC51E2CAD449FB3F73051229EB8E /* Pods-PeerReview04.debug.xcconfig */,
+				1A8C08E87F8D37E5C0A3A5E86B5C6CD1 /* Pods-PeerReview04.release.xcconfig */,
+			);
+			name = "Pods-PeerReview04";
+			path = "Target Support Files/Pods-PeerReview04";
+			sourceTree = "<group>";
+		};
+		86051A3C00E1F77C8B9CC47D412D18B2 /* DistanceGetter */ = {
+			isa = PBXGroup;
+			children = (
+				FA1B2BD9D9BE442521CF5C346FA7D60A /* DGDistanceRequest.h */,
+				E4AB0756BE10B88D0122F7EA53A239AC /* DGDistanceRequest.m */,
+				18DFB90557F3CE87FE8B4A89C443CE8A /* Support Files */,
+			);
+			name = DistanceGetter;
+			path = DistanceGetter;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				24390EFD555DD124430DFF9724065945 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				60E8EE5544B65145ED5002A04EF3BFD1 /* Pods */,
+				49D2C2A73DC227A29AF41EBCAF966FAC /* Products */,
+				2E2CF939FFBFF60875BF80BD9DF96B62 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15909CB7C91AD8E1175717C314F1B1C2 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1319D4678803D5100266010496F262D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F8166EC287685CEE0A428375D7B1D38 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				139E1E96A6844317AEA1008083896C1E /* DGDistanceRequest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		195A768C0E64F6438D36F67FA310AA45 /* DistanceGetter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F756AEF73C41DF79C41457F61544A4F4 /* Build configuration list for PBXNativeTarget "DistanceGetter" */;
+			buildPhases = (
+				6F8166EC287685CEE0A428375D7B1D38 /* Headers */,
+				99898D2FACBF20B43533D57F9E7B6011 /* Sources */,
+				36DF45846B3335C4C3FA0C8F19AA1205 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DistanceGetter;
+			productName = DistanceGetter;
+			productReference = F142DEB1A98A8D448761A1CC1385D3ED /* libDistanceGetter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		45AFB2C8D0B45692F2D2848ABF682CEA /* Pods-PeerReview04 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF481DBAFEB4DB120575A87CD971E1D6 /* Build configuration list for PBXNativeTarget "Pods-PeerReview04" */;
+			buildPhases = (
+				1319D4678803D5100266010496F262D1 /* Headers */,
+				9FCCA7E455F04AEF79D53880C3CFFC9E /* Sources */,
+				0F9A007BF57C52A4AFD0E7C627AFD466 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B726F07E58CFAD3F926DB07486DAB99 /* PBXTargetDependency */,
+			);
+			name = "Pods-PeerReview04";
+			productName = "Pods-PeerReview04";
+			productReference = B0AF29983C57F8E88205BE97586B0C69 /* libPods-PeerReview04.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 49D2C2A73DC227A29AF41EBCAF966FAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				195A768C0E64F6438D36F67FA310AA45 /* DistanceGetter */,
+				45AFB2C8D0B45692F2D2848ABF682CEA /* Pods-PeerReview04 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99898D2FACBF20B43533D57F9E7B6011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BE1BF54706F603E267C8C6650D98D91 /* DGDistanceRequest.m in Sources */,
+				5968700707984989C274B66892508EF0 /* DistanceGetter-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FCCA7E455F04AEF79D53880C3CFFC9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				441765A550578185E9DFE1381C8AAE15 /* Pods-PeerReview04-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B726F07E58CFAD3F926DB07486DAB99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DistanceGetter;
+			target = 195A768C0E64F6438D36F67FA310AA45 /* DistanceGetter */;
+			targetProxy = 200C257A940D0CA028C0F1F47FA955DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		068A219F9C384FD572D523EEE317D0C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		48BA5DE614965B13DDB26D074EBC6E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A324F57C3A20DB56F597812F5A6BA2A /* DistanceGetter.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DistanceGetter/DistanceGetter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DistanceGetter;
+				PRODUCT_NAME = DistanceGetter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82AEAF817ECBE70B49F8748D39FC0D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A8C08E87F8D37E5C0A3A5E86B5C6CD1 /* Pods-PeerReview04.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFD840D2ACCA7FFF60DBC7CC11693688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D1FEC51E2CAD449FB3F73051229EB8E /* Pods-PeerReview04.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCC42D4C4E9E6EB51C44A18A49C8952F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A324F57C3A20DB56F597812F5A6BA2A /* DistanceGetter.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DistanceGetter/DistanceGetter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DistanceGetter;
+				PRODUCT_NAME = DistanceGetter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E29B0B57C53FF8C9953CE2983686A7F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E29B0B57C53FF8C9953CE2983686A7F9 /* Debug */,
+				068A219F9C384FD572D523EEE317D0C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F756AEF73C41DF79C41457F61544A4F4 /* Build configuration list for PBXNativeTarget "DistanceGetter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48BA5DE614965B13DDB26D074EBC6E2F /* Debug */,
+				CCC42D4C4E9E6EB51C44A18A49C8952F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF481DBAFEB4DB120575A87CD971E1D6 /* Build configuration list for PBXNativeTarget "Pods-PeerReview04" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD840D2ACCA7FFF60DBC7CC11693688 /* Debug */,
+				82AEAF817ECBE70B49F8748D39FC0D04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
