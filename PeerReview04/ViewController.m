@@ -40,9 +40,14 @@
     NSArray *dests = @[destA, destB, destC];
     
     self.req = [self.req initWithLocationDescriptions:dests sourceDescription:start];
+    
+    __weak ViewController *weakSelf = self;
+    
     self.req.callback = ^(NSArray *responses){
-        self.distanceC.text = @"callback";
-        self.calculateButton.enabled = YES;
+        ViewController *strongSelf = weakSelf;
+        if(!strongSelf)return;
+        strongSelf.distanceC.text = @"callback";
+        strongSelf.calculateButton.enabled = YES;
     };
     
     [self.req start];
