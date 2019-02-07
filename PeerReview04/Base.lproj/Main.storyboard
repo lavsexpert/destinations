@@ -97,6 +97,16 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="calculateButton" destination="Wmf-Nb-9yw" id="DmI-ZE-HDm"/>
+                        <outlet property="distanceA" destination="hTH-D8-QFA" id="mfb-1e-wJA"/>
+                        <outlet property="distanceB" destination="LSr-F7-d5g" id="3EW-Gr-dwR"/>
+                        <outlet property="distanceC" destination="kCF-E1-VGH" id="JWf-uz-et1"/>
+                        <outlet property="endLocationA" destination="vNl-Sf-XxP" id="sbs-Wy-2fu"/>
+                        <outlet property="endLocationB" destination="ige-Zi-SEK" id="fSr-Gd-2G6"/>
+                        <outlet property="endLocationC" destination="usm-BV-e9Q" id="yGo-8J-M1v"/>
+                        <outlet property="startLocation" destination="qql-N9-Vbt" id="C5M-IB-iHM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
