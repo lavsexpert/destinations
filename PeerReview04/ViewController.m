@@ -43,8 +43,9 @@
     self.req.callback = ^(NSArray *responses){
         self.distanceC.text = @"callback";
         self.calculateButton.enabled = YES;
-        self.req = nil;
     };
+    
+    [self.req start];
     
 }
 
