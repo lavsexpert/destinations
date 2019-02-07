@@ -46,7 +46,16 @@
     self.req.callback = ^(NSArray *responses){
         ViewController *strongSelf = weakSelf;
         if(!strongSelf)return;
-        strongSelf.distanceC.text = @"callback";
+        NSNull *badResult = [NSNull null];
+        if(responses[0] != badResult){
+            double num = ([responses[0] floatValue]/1000.0);
+            NSString *x = [NSString stringWithFormat:@"%.2f km",num];
+            strongSelf.distanceA.text = x;
+        } else {
+            strongSelf.distanceA.text = @"Error";
+        }
+        
+        strongSelf.req = nil;
         strongSelf.calculateButton.enabled = YES;
     };
     
