@@ -49,20 +49,9 @@
         if(!strongSelf)return;
         NSNull *badResult = [NSNull null];
         if(responses[0] != badResult){
-            if(strongSelf.unitController.selectedSegmentIndex == 0){
-                double num = ([responses[0] floatValue]/1.0);
-                NSString *x = [NSString stringWithFormat:@"%.0f m",num];
-                strongSelf.distanceA.text = x;
-
-            } else if(strongSelf.unitController.selectedSegmentIndex == 1) {
-                double num = ([responses[0] floatValue]/1000.0);
-                NSString *x = [NSString stringWithFormat:@"%.2f km",num];
-                strongSelf.distanceA.text = x;
-            } else {
-                double num = ([responses[0] floatValue]/525);
-                NSString *x = [NSString stringWithFormat:@"%.2f miles",num];
-                strongSelf.distanceA.text = x;
-            }
+            strongSelf.distanceA.text = [strongSelf getDistance :strongSelf.unitController.selectedSegmentIndex :responses[0]];
+            strongSelf.distanceB.text = [strongSelf getDistance :strongSelf.unitController.selectedSegmentIndex :responses[1]];
+            strongSelf.distanceC.text = [strongSelf getDistance :strongSelf.unitController.selectedSegmentIndex :responses[2]];
         } else {
             strongSelf.distanceA.text = @"Error";
         }
@@ -73,6 +62,16 @@
     
     [self.req start];
     
+}
+
+- (NSString*) getDistance :(int)index :(id)distance {
+    if(index == 0){
+        return [NSString stringWithFormat:@"%.0f m",([distance floatValue]/1.0)];
+    } else if(index == 1) {
+        return [NSString stringWithFormat:@"%.2f km",([distance floatValue]/1000.0)];
+    } else {
+        return [NSString stringWithFormat:@"%.2f miles",([distance floatValue]/525)];
+    }
 }
 
 @end
