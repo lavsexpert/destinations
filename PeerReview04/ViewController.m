@@ -14,18 +14,18 @@
 @property (nonatomic) DGDistanceRequest *req;
 
 @property (weak, nonatomic) IBOutlet UITextField *startLocation;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *unitController;
 
 @property (weak, nonatomic) IBOutlet UITextField *endLocationA;
 @property (weak, nonatomic) IBOutlet UILabel *distanceA;
-
 @property (weak, nonatomic) IBOutlet UITextField *endLocationB;
 @property (weak, nonatomic) IBOutlet UILabel *distanceB;
-
 @property (weak, nonatomic) IBOutlet UITextField *endLocationC;
 @property (weak, nonatomic) IBOutlet UILabel *distanceC;
+@property (weak, nonatomic) IBOutlet UITextField *endLocationD;
+@property (weak, nonatomic) IBOutlet UILabel *distanceD;
 
 @property (weak, nonatomic) IBOutlet UIButton *calculateButton;
-@property (weak, nonatomic) IBOutlet UISegmentedControl *unitController;
 
 @end
 
@@ -38,7 +38,8 @@
     NSString *destA = self.endLocationA.text;
     NSString *destB = self.endLocationB.text;
     NSString *destC = self.endLocationC.text;
-    NSArray *dests = @[destA, destB, destC];
+    NSString *destD = self.endLocationD.text;
+    NSArray *dests = @[destA, destB, destC, destD];
     
     self.req = [self.req initWithLocationDescriptions:dests sourceDescription:start];
     
@@ -49,9 +50,11 @@
         if(!strongSelf)return;
         NSNull *badResult = [NSNull null];
         if(responses[0] != badResult){
-            strongSelf.distanceA.text = [strongSelf getDistance :strongSelf.unitController.selectedSegmentIndex :responses[0]];
-            strongSelf.distanceB.text = [strongSelf getDistance :strongSelf.unitController.selectedSegmentIndex :responses[1]];
-            strongSelf.distanceC.text = [strongSelf getDistance :strongSelf.unitController.selectedSegmentIndex :responses[2]];
+            NSInteger unitSegment = strongSelf.unitController.selectedSegmentIndex;
+            strongSelf.distanceA.text = [strongSelf getDistance :unitSegment :responses[0]];
+            strongSelf.distanceB.text = [strongSelf getDistance :unitSegment :responses[1]];
+            strongSelf.distanceC.text = [strongSelf getDistance :unitSegment :responses[2]];
+            strongSelf.distanceD.text = [strongSelf getDistance :unitSegment :responses[3]];
         } else {
             strongSelf.distanceA.text = @"Error";
         }
@@ -64,7 +67,7 @@
     
 }
 
-- (NSString*) getDistance :(int)index :(id)distance {
+- (NSString*) getDistance :(NSInteger)index :(id)distance {
     if(index == 0){
         return [NSString stringWithFormat:@"%.0f m",([distance floatValue]/1.0)];
     } else if(index == 1) {
