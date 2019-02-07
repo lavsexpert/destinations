@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "DistanceGetter/DGDistanceRequest.h"
 
 @interface ViewController ()
+
+@property (nonatomic) DGDistanceRequest *req;
+
 @property (weak, nonatomic) IBOutlet UITextField *startLocation;
 
 @property (weak, nonatomic) IBOutlet UITextField *endLocationA;
@@ -25,5 +29,23 @@
 @end
 
 @implementation ViewController
+
+- (IBAction)calculateButtonTapped:(id)sender {
+    self.calculateButton.enabled = NO;
+    self.req = [DGDistanceRequest alloc];
+    NSString *start = self.startLocation.text;
+    NSString *destA = self.endLocationA.text;
+    NSString *destB = self.endLocationB.text;
+    NSString *destC = self.endLocationC.text;
+    NSArray *dests = @[destA, destB, destC];
+    
+    self.req = [self.req initWithLocationDescriptions:dests sourceDescription:start];
+    self.req.callback = ^(NSArray *responses){
+        self.distanceC.text = @"callback";
+        self.calculateButton.enabled = YES;
+        self.req = nil;
+    };
+    
+}
 
 @end
