@@ -73,7 +73,7 @@
     } else if(index == 1) {
         return [NSString stringWithFormat:@"%.2f km",([distance floatValue]/1000.0)];
     } else {
-        return [NSString stringWithFormat:@"%.2f miles",([distance floatValue]/525)];
+        return [NSString stringWithFormat:@"%.2f miles",([distance floatValue]/1000.0 * 1.6093)];
     }
 }
 
